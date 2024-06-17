@@ -1,5 +1,5 @@
 import { bot, Markup, session } from "../connection/token.connection.js"
-import saveNew from "../common/prisma/saveNew.js"
+import saveNew from "../common/completeInstructions/saveNew.js"
 
 
 export const ctxStart = async (ctx) => {

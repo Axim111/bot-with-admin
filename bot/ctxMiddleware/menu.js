@@ -8,6 +8,7 @@ export const menu = async (ctx) => {
   await ctx.reply("меню", Markup.inlineKeyboard([
     [Markup.button.callback("все пользователи", "allUsers")],
     [Markup.button.callback("notice", "notice")],
-    [Markup.button.callback(user.notice ? "notice active. turn off?" : "notice not active. turn on?", "noticeChange")]
+    [Markup.button.callback(user.notice ? "notice active. turn off?" : "notice not active. turn on?", "noticeChange")],
+    
   ]));//под текстом
 }
