@@ -6,7 +6,7 @@ import { findUser } from "../common/user/findUser.js"
 export const ctxChangNotice = async (ctx) => {
 
   new CronJob(
-    '0 * * * * *', // cronTime
+    '35 * * * * *', // cronTime
 
     async () => {
 

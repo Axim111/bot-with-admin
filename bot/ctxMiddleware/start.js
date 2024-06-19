@@ -4,6 +4,7 @@ import saveNew from "../common/completeInstructions/saveNew.js"
 
 export const ctxStart = async (ctx) => {
   // console.log(ctx.chat)
+
   const login = String(ctx.chat.id)
   const username = ctx.chat.first_name ?? "anon"
 
